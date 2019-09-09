@@ -9,8 +9,8 @@ tags:
     - C Language
 ---
 
-#### ~scanf("%d%d",&a,&b)
-###### 代码功能：多组输入求两个数的和
+#### ~scanf("%d%d",&a,&b) ####
+###### 代码功能：多组输入求两个数的和 ######
 ```
 #include<stdio.h>
 int main()
