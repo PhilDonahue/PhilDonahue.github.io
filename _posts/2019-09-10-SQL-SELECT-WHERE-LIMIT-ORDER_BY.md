@@ -33,7 +33,7 @@ ORDER BY prod_name;
 <br>
 > **'通常非选择列进行排序'**
 > '通常，ORDER BY子句中使用的列将是为显示而选择的列。但是，实际上不一定要这样，用非检索的列排序数据是完全合法的。'
-<br><br>
+***
 2. 按多个列排序
 下面代码检索3个列，并按其中两个列对结果进行排序---首先按价格，然后按名称排序
 ```
@@ -42,6 +42,7 @@ FROM Products
 ORDER BY prod_price,prod_name;
 ```
 仅对于多个行具有相同的prod_price值时才对产品按prod_name进行排序，如果prod_price中所有值都是唯一的，则不会按prod_name排序。
+***
 3. 按列位置排序（相对列位置排序）
 ```
 SELECT DISTINCT vend_id,prod_price,prod_name
