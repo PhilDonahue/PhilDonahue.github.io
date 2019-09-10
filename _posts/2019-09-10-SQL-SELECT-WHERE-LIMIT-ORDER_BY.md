@@ -9,8 +9,8 @@ tags:
     - SQL
 ---
 
-#### SQL-SELECT-WHERE-LIMIT-ORDER_BY ####
-###### SELECT ######
+## SQL-SELECT-WHERE-LIMIT-ORDER_BY ##
+### SELECT ###
 ```
 SELECT DISTINCT vend_id
 FROM Products;
@@ -19,7 +19,7 @@ FROM Products;
 > **警告：不能部分使用DISINTCT**<br>
 > DISINTCT关键字作用于所有列，不仅仅是跟在其后的那一列。例如，你指定SELECT DISINTCT vend_id,prod_id,除非指定的两列完全相同，否则所有行都会被检索出来
 
-###### ORDER BY ######
+### ORDER BY ###
 1. 按单列排序
 ORDER BY子句取一个或多个列的名字，据此对输出进行排序
 ```
